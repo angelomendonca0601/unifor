@@ -1,7 +1,7 @@
 # unifor 
 **Disciplina:** raciocínio lógico algoritmico
 **EXERCÍCIO 2**
-````memaid
+``memaid
 flowchart TD
  id1([Inicio]) --> id2>Digite o valor do salário:]
  id2 --> id3[/Si/]
