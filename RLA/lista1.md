@@ -1,7 +1,7 @@
 # unifor 
 **Disciplina:** raciocínio lógico algoritmico
 **EXERCÍCIO 2**
-```Mermaid
+````memaid
 flowchart TD
  id1([Inicio]) --> id2>Digite o valor do salário:]
  id2 --> id3[/Si/]
@@ -11,5 +11,5 @@ flowchart TD
  id5 --> id7>O seu novo salário é: Sf]
  id6 --> id7
  id7 -->id8([Inicio])
- ```
+````
  
