@@ -68,6 +68,19 @@ inicio
  FIM_ALGORITMO
 ```
 
+**EXERCÍCIO 4**
+
+```mermaid
+flowchart TD
+id1([INICIO]) --> id2>Digite quantos anos você tem:]
+id2 --> id3[/i/]
+id3 -- Sim--> id4>Parabéns, você tem idade suficiente para tirar sua CNH]
+id3 -- Nao--> id5[I =18-i]
+id5 --> id6 >Faltam I anos para que você possa tirar a sua CNH]
+id6-->id([FIM])
+id3 -->id([FIM])
+
+```
 
 
 
