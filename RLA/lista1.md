@@ -1,5 +1,7 @@
 # unifor 
 **Disciplina:** raciocínio lógico algoritmico
+
+
 **EXERCÍCIO 2**
 
 ```mermaid
