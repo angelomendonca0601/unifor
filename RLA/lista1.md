@@ -54,9 +54,18 @@ id7 --> id([FIM])
 
 ```
 Algoritmo "AlgoritmoMédia"
-
-
-FIM_ALGORITMO
+var
+  n1,n2, M :numérico
+inicio
+     escreva ("Digite o valor das duas notas:")
+     leia (n1,n2)
+     M<--n1/2 + n2/2
+     se M>=7 entao
+        escreva("parabéns, você está aprovado")
+     senão
+         escreva("infelizmenre, você está reprovado")
+     fimse
+ FIM_ALGORITMO
 ```
 
 
