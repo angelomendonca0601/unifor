@@ -77,8 +77,7 @@ id2 --> id3[/i/]
 id3 -- Sim--> id4>Parabéns, você tem idade suficiente para tirar sua CNH]
 id3 -- Nao--> id5[I =18-i]
 id5 --> id6>Quantos anos faltam para que você possa tirar a sua CNH:I]
-id6--> id7>I]
-id7-->id([FIM])
+id6-->id([FIM])
 id3 -->id([FIM])
 
 ```
