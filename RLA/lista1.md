@@ -24,7 +24,7 @@ Algoritmo "ContaAprovacoes"
 
 var
   
-  Si, Sf :numérico               //Si: salário inicial e Sf: salário final
+      Si, Sf :numérico               //Si: salário inicial e Sf: salário final
 
 inicio
 
