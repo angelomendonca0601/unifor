@@ -18,6 +18,16 @@ flowchart TD
  id7 -->id8([Inicio])
 ```
 
+PSEUDOCÓDIGO
+Algoritmo "ContaAprovacoes"
+var
+  Si, Sf :numérico
+inicio
+     escreva ("Digite o valor do salário":)
+     
+
+FIM_ALGORITMO
+
 
 
 
