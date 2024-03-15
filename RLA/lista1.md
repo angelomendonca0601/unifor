@@ -20,7 +20,7 @@ flowchart TD
 
 PSEUDOCÓDIGO
 ```
-Algoritmo "ContaAprovacoes"
+Algoritmo "AlgoritmoSalário"
 var
       Si, Sf :numérico               //Si: salário inicial e Sf: salário final
 inicio
@@ -50,6 +50,13 @@ id5 -- NÃO --> id6>infelizmente você está reprovado]
 id5 -- SIM --> id7>parabéns, você está aprovado]
 id6 --> id([FIM])
 id7 --> id([FIM])
+```
+
+```
+Algoritmo "AlgoritmoMédia"
+
+
+FIM_ALGORITMO
 ```
 
 
