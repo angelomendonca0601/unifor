@@ -40,6 +40,18 @@ FIM_ALGORITMO
 **EXERCÍCIO 3**
 
 FLUXOGRAMA
+```mermaid
+flowchart TD
+id1([INICIO]) -->id2>Digite o valor das duas notas:]
+id2 --> id3 [/n1,n2/]
+id3 --> id4[ M=(n1+n2)/2]
+id4 --> id5{M>=7}
+id5 -- NÃO --> id6>infelizmente você está reprovado]
+id5 -- SIM --> id7>parabéns, você está aprovado]
+id6 --> id([FIM])
+id7 --> id([FIM])
+```
+
 
 
 
