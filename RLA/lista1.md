@@ -4,6 +4,8 @@
 
 **EXERCÍCIO 2**
 
+
+FLUXOGRAMA
 ```mermaid
 flowchart TD
  id1([Inicio]) --> id2>Digite o valor do salário:]
@@ -15,6 +17,8 @@ flowchart TD
  id6 --> id7
  id7 -->id8([Inicio])
 ```
+
+
 
 
  
