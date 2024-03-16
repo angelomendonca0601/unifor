@@ -22,6 +22,15 @@ FIM_ALGORITMO
 ```
 
 **EXERCÍCIO 2**
+```mermaid
+flowchart TD
+id1([INICIO]) --> id2>Digite uma temperatura em celsius:]
+id2 --> id3[/C/]
+id3 --> id4[   F <- 9/5 * C + 32]
+id4 --> id5>A temperatura que você digitou em Fahrenheit é: F]
+id5 --> id([FIM])
+```
+
 ```
 Algoritmo "ConverteCelsiusFarenheit"
 Var
