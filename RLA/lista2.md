@@ -21,3 +21,15 @@ Inicio
 FIM_ALGORITMO
 ```
 
+**EXERCÍCIO 2**
+```
+Algoritmo "ConverteCelsiusFarenheit"
+Var
+  F, C : inteiro
+Inicio
+  Escreva("Digite uma temperatura em celsius:)
+  Leia (C)
+   F <- (9/5) * C + 32)
+   Escreva("A temperatura que você digitou em Fahrenheit é:", F)   
+FIM_ALGORITMO
+```
