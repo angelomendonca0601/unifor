@@ -86,7 +86,15 @@ id4 -->id([FIM])
 ```
 Algoritmo "CNH"
 var
-  
+  i, I :numérico
+Inicio
+     Escreva ("Quantos anos você tem:")
+     Leia (i)
+     Se i>=18 entao
+        Escreva ("Parabéns, você tem idade suficiente para tirar sua CNH")
+     Senao
+         Escreva ("Quantos anos faltam para que você possa tirar sua CNH:", I)
+     Fimse
 FIM_ALGORITMO
 ```
 
