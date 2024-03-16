@@ -83,6 +83,12 @@ id4 -->id([FIM])
 
 ```
 
+```
+Algoritmo "CNH"
+var
+  
+FIM_ALGORITMO
+```
 
 
 
