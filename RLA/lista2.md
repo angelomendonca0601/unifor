@@ -53,7 +53,8 @@ Receba dois números reais e um operador e efetue a operação correspondente co
 ```
 Algoritmo "Calculadora"
 Var
-  
+  x, y, operacao: real              // operacao: operação matemática
+Inicio
   
 FIM_ALGORITMO
 ```
