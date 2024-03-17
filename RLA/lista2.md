@@ -1,6 +1,9 @@
 # unifor 
 **Disciplina:** raciocínio lógico algoritmico
 **EXERCÍCIO 1**
+Calcule a média de quatro números inteiros dados.
+
+
 ```mermaid
 flowchart TD
 id1([INICIO]) --> id2>Digite quatro números inteiros:]
@@ -22,6 +25,7 @@ FIM_ALGORITMO
 ```
 
 **EXERCÍCIO 2**
+Leia uma temperatura dada em Celsius (C) e imprima o equivalente em Fahrenheit (F). (Fórmula de conversão: F = (9/5) * C + 32)
 ```mermaid
 flowchart TD
 id1([INICIO]) --> id2>Digite uma temperatura em celsius:]
