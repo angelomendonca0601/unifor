@@ -50,3 +50,11 @@ FIM_ALGORITMO
 **EXERCÍCIO 3**
 Receba dois números reais e um operador e efetue a operação correspondente com os valores recebidos (operandos). O algoritmo deve retornar o resultado da operação selecionada simulando todas as operações de uma calculadora simples.
 
+```
+Algoritmo "Calculadora"
+Var
+  
+  
+FIM_ALGORITMO
+```
+
