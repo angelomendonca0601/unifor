@@ -62,10 +62,36 @@ Receba dois números reais e um operador e efetue a operação correspondente co
 
 ```
 Algoritmo "Calculadora"
-Var
-  x, y, operacao: real              // operacao: operação matemática
-Inicio
-  
+var
+  n1,n2, opcao :inteiro
+inicio
+   escreva ("Digite um número")
+   leia(n1)
+   escreva ("Digite outro número")
+   leia(2)
+    escreva("opções:")
+    escreval (")
+    escreval ("(1) - Soma")
+    escreval ("(2) - subtração")
+    escreval ("(3) - multiplicação")
+    escreval ("(4) - divisão")
+    escreval ("")
+    escreva("Escolha uma opção:")
+    leia (opcao)
+    escolha (opcao)
+      caso 1
+         escreva("A soma dos dois números deu:", n1+n2)
+         pare
+      caso 2 
+          escreva("A subtração dos dois números deu:", n1-n2)
+          pare
+      caso 3
+          escreva("A multiplicação dos dois números deu:", n1*n2)
+          pare
+      caso 4
+           escreva("A divisão dos dois números deu:", n1/n2)
+           pare
+      caso contrario
+           escreva ("Por favor, escolha uma opção de 1 a 4")
 FIM_ALGORITMO
 ```
-
