@@ -148,7 +148,7 @@ inicio
          escreva("você está na categoria adulto")
      caso contrário
          escreva("esse algoritmo só trabalha com pessoas a partir de 5 anos")
-      fimcaso   
+     fimcaso   
 FIM_ALGORITMO
 ```
 
