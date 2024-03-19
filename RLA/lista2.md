@@ -138,9 +138,6 @@ var
 inicio
   escreva ("Digite a sua idade:")
   leia (n)
-  se n<5 então
-     escreva("a idade digitada está abaixo do limite")
-  fimse
   escolha(n)
     caso 5<=n<=7
       escreva ("Você está na categoria infantil A")
@@ -151,7 +148,10 @@ inicio
     caso 14<=n<=17
         escreva("você está na categoria juvenil B")
     caso n>=18
-         escreva("você está na categoria adulto")  
+         escreva("você está na categoria adulto")
+     caso contrário
+         escreva("esse algoritmo só trabalha com pessoas a partir de 5 anos")
+      fimcaso   
 FIM_ALGORITMO
 ```
 
