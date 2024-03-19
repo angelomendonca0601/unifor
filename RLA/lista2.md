@@ -1,5 +1,10 @@
 # unifor 
 **Disciplina:** raciocínio lógico algoritmico
+
+
+
+
+
 **EXERCÍCIO 1**
 Calcule a média de quatro números inteiros dados.
 
