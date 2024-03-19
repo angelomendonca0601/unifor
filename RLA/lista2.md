@@ -130,3 +130,28 @@ FIM_ALGORITMO
 
 ### Exercício 04 (2.5 pontos)
 Elaborar um algoritmo que, dada a idade, classifique nas categorias: infantil A (5 - 7 anos), infantil B (8 -10 anos), juvenil A (11 - 13 anos), juvenil B (14 -17 anos) e adulto (maiores que 18 anos).
+
+```
+Algoritmo "ClassificaCategoria"
+var
+  n: inteiro
+inicio
+  escreva ("Digite a sua idade:")
+  leia (n)
+  se n<5 então
+     escreva("a idade digitada está abaixo do limite")
+  fimse
+  escolha(n)
+    caso 5<=n<=7
+      escreva ("Você está na categoria infantil A")
+    caso 8<=n<=10
+       escreva ("você está na categoria infantil B")
+    caso 11<=n<=13
+        escreva("você está na categoria juvenil A")
+    caso 14<=n<=17
+        escreva("você está na categoria juvenil B")
+    caso n>=18
+         escreva("você está na categoria adulto")  
+FIM_ALGORITMO
+```
+
