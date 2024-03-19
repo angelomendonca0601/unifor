@@ -111,18 +111,15 @@ inicio
     escolha (opcao)
       caso 1
          escreva("A soma dos dois números deu:", n1+n2)
-         pare
       caso 2 
           escreva("A subtração dos dois números deu:", n1-n2)
-          pare
       caso 3
           escreva("A multiplicação dos dois números deu:", n1*n2)
-          pare
       caso 4
            escreva("A divisão dos dois números deu:", n1/n2)
-           pare
       caso contrario
            escreva ("Por favor, escolha uma opção de 1 a 4")
+      fimcaso
 FIM_ALGORITMO
 ```
 
