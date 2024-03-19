@@ -24,6 +24,11 @@ Inicio
 FIM_ALGORITMO
 ```
 
+
+
+
+
+
 **EXERCÍCIO 2**
 Leia uma temperatura dada em Celsius (C) e imprima o equivalente em Fahrenheit (F). (Fórmula de conversão: F = (9/5) * C + 32)
 ```mermaid
