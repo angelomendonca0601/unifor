@@ -46,10 +46,20 @@ I --> J{{"b =", b}}
 
 ```
 Algoritmo TrocaValores
+Var
+  a,b,aux: inteiro
 INICIO
-...
-FIM
-```
+  Escreva("Digite o valor da a:")
+  Leia(a)
+  Escreva("Digite o valor da b:")
+  Leia(b)
+  aux<-a
+  a<-b
+  b<-aux
+  Escreva("a=",a)
+  Escreva("b=",b)
+FimAlgoritmo  
+  ```
 
 #### Teste de mesa
 
