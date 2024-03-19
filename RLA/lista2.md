@@ -60,6 +60,36 @@ FIM_ALGORITMO
 **EXERCÍCIO 3**
 Receba dois números reais e um operador e efetue a operação correspondente com os valores recebidos (operandos). O algoritmo deve retornar o resultado da operação selecionada simulando todas as operações de uma calculadora simples.
 
+```mermaid
+flowchart TD
+id1([INICIO]) --> id2>Digite um número]
+id2 -->  id3[/n1/]
+id3 --> id4>Digite outro número:]
+id4 --> id5[/n2/]
+id5 --> id6>opções:]
+id6 --> id7>1 - Soma]
+id7 --> id8>2 - Subtração]
+id8 --> id9>3 - Multiplicação]
+id9 --> id10>4 - Divisão]
+id10 --> id11{Caso 1}
+id11 -- V --> id12>A soma dos dois números deu: n1+n2]
+id11 -- F --> id13{Caso 2}
+id13 -- V --> id14>A subtração dos dois números deu: n1-n2]
+id13 -- F --> id15{Caso 3}
+id15 -- V --> id16>A multiplicação dos dois números deu: n1*n2]
+id15 -- F --> id17{Caso 4}
+id17 -- V --> id18>A divisão dos dois números deu: n1/n2]
+id18 -- F --> id19>Por favor, escolha uma opção de 1 a 4]
+id12 --> id
+id14 --> id
+id16 --> id
+id18 --> id
+id19 --> id
+
+ 
+id([FIM])
+```
+
 ```
 Algoritmo "Calculadora"
 var
