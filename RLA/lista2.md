@@ -129,10 +129,29 @@ FIM_ALGORITMO
 Elaborar um algoritmo que, dada a idade, classifique nas categorias: infantil A (5 - 7 anos), infantil B (8 -10 anos), juvenil A (11 - 13 anos), juvenil B (14 -17 anos) e adulto (maiores que 18 anos).
 ```mermaid
 flowchart TD
-id1([INICIO]) -->
+id1([INICIO]) --> id2>Digite a sua idade:]
+id2 --> id3[/n/]
+id3 --> id4{ caso 5<=n<=7}
+id4 -- V --> id5>Você está na categoria infantil A]
+id4 -- F --> id6{8<=n<=10}
+id6 -- V --> id7>você está na categoria infantil B]
+id6 -- F -->id8{11<=n<=13}
+id8 -- V --> id9>você está na categoria juvenil A]
+id8 -- F -->id10{14<=n<=17}
+id10 -- V -->id11>você está na categoria juvenil B]
+id10 -- F --> id12{caso n>=18}
+id12 -- V --> id13>você está na categoria adulto]
+id12 -- F --> id14{caso contrário}
+id14-- V --> id15>esse algoritmo só trabalha com pessoas a partir de 5 anos]
+id5 -->id
+id7 --> id
+id9 --> id
+id11 -->id
+id13 --> id
+id15 --> id
+id14 --> id
 id([FIM])
 ```
-
 
 
 
