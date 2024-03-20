@@ -50,7 +50,22 @@ FIM_ALGORITMO
 
 ### Exercício 02
 Faça um algoritmo que exiba na tela uma contagem de 0 até 30, exibindo apenas os múltiplos de 3.
+
+
+
+
+
+
 ```
-Algoritmo ClassificaCategoria
+Algoritmo "Questão2"
+Var
+  i:inteiro
+Inicio
+  Para i de 0 até 30 passo 3
+    Escreva(i)
+  FimPara
 FIM_ALGORITMO
 ```
+### Exercício 03
+Dada uma sequência de números inteiros, calcular a sua soma. 
+Por exemplo, para a sequência {12, 17, 4, -6, 8, 0}, o seu programa deve escrever o número 35.
