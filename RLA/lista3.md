@@ -2,6 +2,27 @@
 Atualize o algoritmo para determinar se um número inteiro e positivo é par ou ímpar, usando uma laço condicional para aceitar apenas números maiores ou iguais a zero. 
 
 
+```mermaid
+flowchart TD
+id1([INICIO]) --> id2>"Digite um número"]
+id2 --> id3[/n/]
+id3 --> id4{n<0}
+id4 -- V --> id5>"Digite um número:"]
+id5 --> id6[/n/]
+id6 -->id4
+id4 -- F --> id7{n!=0}
+id7 -- V--> id8>Por favor, digite um número inteiro:]
+id7 -- F --> id9{n%2=0}
+id9 -- V --> id10>O número n é par]
+id9 -- F --> id11>O número n é ímpar]
+id11 --> id
+id10 --> id
+id8-->id
+
+
+id([FIM])
+```
+
 
 
 
