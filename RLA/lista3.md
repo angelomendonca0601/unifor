@@ -52,7 +52,13 @@ Faça um algoritmo que exiba na tela uma contagem de 0 até 30, exibindo apenas 
 
 ```mermaid
 flowchart TD
-A([INICIO]) --> B([FIM])
+id1([INICIO]) --> id2[i=1]
+id2 --> id3[[i de 1 até 30 passo 1]]
+id3 --> id4[/i/] 
+id4 --> id5{i%3=0}
+id5 -- V --> id6>i é múltiplo de 3]
+id6 -->id3
+id6 -->id([FIM])
 ```
 
 
