@@ -24,8 +24,6 @@ id([FIM])
 ```
 
 
-
-
 ```
 Algoritmo "ClassificaCategoria"
 Var
@@ -52,7 +50,10 @@ FIM_ALGORITMO
 Faça um algoritmo que exiba na tela uma contagem de 0 até 30, exibindo apenas os múltiplos de 3.
 
 
-
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
 
 
 
@@ -63,7 +64,7 @@ Var
 Inicio
   i<-1
   Para i de 1 até 30 passo 1
-    Escreva(i)
+    Leia(i)
     Se i%3=0 entao
        Escreva(i,"é múltiplo de 3")
     Fim_Se
