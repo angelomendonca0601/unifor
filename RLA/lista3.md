@@ -48,3 +48,9 @@ Inicio
 FIM_ALGORITMO
 ```
 
+### Exercício 02
+Faça um algoritmo que exiba na tela uma contagem de 0 até 30, exibindo apenas os múltiplos de 3.
+```
+Algoritmo ClassificaCategoria
+FIM_ALGORITMO
+```
