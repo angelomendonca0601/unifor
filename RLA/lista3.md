@@ -61,10 +61,14 @@ Algoritmo "Questão2"
 Var
   i:inteiro
 Inicio
-  Para i de 0 até 30 passo 3
+  i<-1
+  Para i de 1 até 30 passo 1
     Escreva(i)
-  FimPara
-FIM_ALGORITMO
+    Se i%3=0 entao
+       Escreva(i,"é múltiplo de 3")
+    Fim_Se
+  Fim_Para
+Fim_Algoritmo  
 ```
 ### Exercício 03
 Dada uma sequência de números inteiros, calcular a sua soma. 
