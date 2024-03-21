@@ -69,7 +69,7 @@ Var
   i:inteiro
 Inicio
   i<-1
-  Para i de 1 até 30 passo 1
+  Para i de 0 até 30 passo 1
     Leia(i)
     Se i%3=0 entao
        Escreva(i,"é múltiplo de 3")
