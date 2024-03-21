@@ -57,7 +57,7 @@ id2 --> id3[[i de 1 até 30 passo 1]]
 id3 --> id4[/i/] 
 id4 --> id5{i%3=0}
 id5 -- V --> id6>i é múltiplo de 3]
-id6 -->id3
+id6 -- LOOP-->id3
 id6 -->id([FIM])
 ```
 
