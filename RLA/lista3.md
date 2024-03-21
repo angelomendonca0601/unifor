@@ -92,7 +92,7 @@ id6-->id7[/num/]
 id7-->id8[soma<-soma+num]
 id8-->id9[rep<-rep+1]
 id9 -->id10{rep=n}
-id10 --F-->id6
+id10 --LOOP-->id6
 id10 --V-->id11>soma é o resultado da soma dos números digitados]
 id11-->id([FIM])
 ```
