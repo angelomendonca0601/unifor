@@ -128,3 +128,21 @@ inicio
 FIM_ALGORITMO
 ```
     
+### Exercício 04
+Escreva um programa que leia a nota de diversos alunos, até que seja digitada uma nota negativa. 
+Nesse momento, ele mostra a média aritmética de todas as notas lidas e quantas notas foram lidas. 
+Ex. Foram lidas 14 notas. A média aritmética é 6.75!
+
+#### Fluxograma
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo
+
+```
+Algoritmo ClassificaCategoria
+FIM_ALGORITMO
+```
