@@ -173,7 +173,7 @@ inicio
         escreva("você está na categoria juvenil B")
     caso n>=18
          escreva("você está na categoria adulto")
-     caso contrário
+     Senao
          escreva("esse algoritmo só trabalha com pessoas a partir de 5 anos")
      fimcaso   
 FIM_ALGORITMO
