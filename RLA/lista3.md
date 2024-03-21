@@ -81,6 +81,21 @@ Fim_Algoritmo
 Dada uma sequência de números inteiros, calcular a sua soma. 
 Por exemplo, para a sequência {12, 17, 4, -6, 8, 0}, o seu programa deve escrever o número 35.
 
+```mermaid
+flowchart TD
+id1([INICIO]) -->id2>Digite quantos números você quer:]
+id2 -->id3[/n/]
+id3 -->id4[rep<-0]
+id4-->id5[soma<-0]
+id5-->id6>Digite um número:]
+id6-->id7[/num/]
+id7-->id8[soma<-soma+num]
+id8-->id9[rep<-rep+1]
+id9 -->id10{rep=n}
+id10 --F-->id6
+id10 --V-->id11>soma é o resultado da soma dos números digitados]
+id11-->id([FIM])
+```
 
 
 
