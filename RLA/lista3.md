@@ -106,7 +106,6 @@ id11-->id([FIM])
 
 ```
 Algoritmo "Lista3_Soma"
-algoritmo "semnome"
 // Função :Dada uma sequência de números inteiros, calcular a sua soma
 // Autor : Ângelo Mendonça Rodrigues
 // Data : 21/03/2024
