@@ -80,6 +80,15 @@ Fim_Algoritmo
 ### Exercício 03
 Dada uma sequência de números inteiros, calcular a sua soma. 
 Por exemplo, para a sequência {12, 17, 4, -6, 8, 0}, o seu programa deve escrever o número 35.
+
+
+
+
+
+
+
+
+
 ```
 Algoritmo "Lista3_Soma"
 algoritmo "semnome"
