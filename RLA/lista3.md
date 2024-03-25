@@ -10,7 +10,7 @@ id3 --> id4{n<0}
 id4 -- V --> id5>"Digite um número maior ou igual a zero:"]
 id5 --> id6[/n/]
 id6 --Loop-->id4
-id4 -- F --> id7{n!=0}
+id4 -- F --> id7{n%1=0}
 id7 -- V--> id8>Por favor, digite um número inteiro:]
 id7 -- F --> id9{n%2=0}
 id9 -- V --> id10>O número n é par]
