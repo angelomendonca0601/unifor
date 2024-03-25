@@ -145,7 +145,7 @@ A([INICIO]) --> B([FIM])
 
 ```
 algoritmo "semnome"
-Declare nota, media:real quant🇦🇷
+Declare nota, media:real quant:inteiro
 INICIO
  media<-0
  quant<-0
