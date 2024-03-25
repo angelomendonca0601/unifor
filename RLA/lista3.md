@@ -147,3 +147,9 @@ A([INICIO]) --> B([FIM])
 Algoritmo ClassificaCategoria
 FIM_ALGORITMO
 ```
+
+
+```
+Algoritmo ClassificaCategoria
+FIM_ALGORITMO
+```
