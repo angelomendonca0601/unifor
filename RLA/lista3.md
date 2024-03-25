@@ -144,8 +144,20 @@ A([INICIO]) --> B([FIM])
 #### Pseudocódigo
 
 ```
-Algoritmo ClassificaCategoria
-FIM_ALGORITMO
+algoritmo "semnome"
+Declare nota, media:real quant🇦🇷
+INICIO
+ media<-0
+ quant<-0
+ nota<-0
+ Escreva("Digite uma nota:")
+ Leia(nota)
+ Enquanto nota>=0
+   quant<--quant+1
+   media<-- (media+nota)/quant
+ FimEnquanto
+ Escreva("A média das notas foi:",media,"e quantidade de notas escritas foi",quant) 
+fimalgoritmo
 ```
 
 
