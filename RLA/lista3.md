@@ -35,8 +35,14 @@ Inicio
        Escreva("Digite um número")
        Leia(n)
    FimEnquanto
-   Se n%1 != 0 entao
-       Escreva("Por favor, digite um número inteiro")
+   Se n%1 = 0 entao
+      Se n%2=0 entao
+        Escreva("O número",n,"é par")
+      Senao
+        Escreva("O número",n,"é impar")
+      FimSe
+   Senao 
+    Escreva("Por favor, digite um número inteiro")
    Fimse
    Se n%2=0 entao
       Escreva("O número",n,"é par")
