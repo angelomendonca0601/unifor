@@ -44,11 +44,6 @@ Inicio
    Senao 
     Escreva("Por favor, digite um número inteiro")
    Fimse
-   Se n%2=0 entao
-      Escreva("O número",n,"é par")
-   Senao
-      Escreva("O número",n,"é impar")
-   FimSe
 FIM_ALGORITMO
 ```
 
